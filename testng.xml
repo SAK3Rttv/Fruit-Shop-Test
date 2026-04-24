@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Fruit Shop Suite">
+  <test name="Test Cart">
+    <classes>
+      <class name="ch3_2.FruitShopTest">
+         <methods>
+            <include name="CheckCartItemsCount"/>
+            <include name="checkNoPineapple"/>
+            <include name="checkSecondItem"/>
+            <include name="checkSizeCartAferAdding"/>
+         </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
